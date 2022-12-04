@@ -1,0 +1,18 @@
+{
+  "name": "internal",
+  "version": "1.0.0",
+  "description": "internal app for docker",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mstmaenov",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "pug": "^3.0.2",
+    "redis": "^4.5.1"
+  }
+}

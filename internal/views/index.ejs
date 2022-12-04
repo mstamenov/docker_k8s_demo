@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Internal application</title>
+        <style>
+            table, th, td {
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Internal application</h1>
+        <p>This is the internal application. Here you can manipulate data, that will be saved in Redis</p>
+        <table>
+            <tr>
+                <th style="width: 200px;">Team</th>
+                <th style="width: 200px;">Score</th>
+                <th style="width: 200px;">Action</th>
+            </tr>
+            <tr>
+                <td>UMIS</td>
+                <td><%= umis %></td>
+                <td><a href="/addOne?team=umis">+1</a></td>
+            </tr>
+            <tr>
+                <td>NIMS</td>
+                <td><%= nims %></td>
+                <td><a href="/addOne?team=nims">+1</a></td>
+            </tr>
+        </table>
+    </body>
+</html>
